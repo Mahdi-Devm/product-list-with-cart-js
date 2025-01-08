@@ -12,6 +12,7 @@ You can view a live demo of this project [DEMO](https://raw.githack.com/Mahdi-De
 
 - Browse a list of products.
 - Add products to the shopping cart.
+- Responsive design
 - View cart summary.
 - Remove products from the cart.
 
