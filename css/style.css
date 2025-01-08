@@ -1,0 +1,221 @@
+@import url(./cssdefult.css);
+/* start all css */
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontianer{
+    display: flex;
+    width:1200px;
+    margin-top: 3rem;
+}
+.maincontianer--left-img-box{
+    height: 213px;
+}
+.aincontianer--left-img{
+    width: 239px;
+    border-radius: 15px;
+}
+.maincontianer h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: hsl(14, 65%, 9%);
+}
+.maincontianermain{
+    width: 200px;
+    height: 100px;
+}
+.maincontianer--left-box-btn{
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    border: 1px solid var(--red-color-);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincontianer--left-box-btn:hover {
+    background-color: var(--red-color-);
+    color: #ffffff; 
+    transition: all 400ms ease;
+    border: 1px solid white;
+  }
+.maincontianer--left-box-btn:hover .maincontianer--left-btn-icon {
+    color: #ffffff;
+  }
+.maincontianer--left-btn-icon{
+    color: var(--red-color-);
+}
+.maincontianer--left-text{
+    width: 220px;
+    line-height: 0.8;
+    margin-top: 40px;
+}
+.maincontianer--left-text-price{
+    color: var(--red-color-);
+    font-size: 20px;
+}
+.maincontianer--left-text-Category{
+    color: hsl(14, 25%, 72%);
+}
+.maincontianer--left-text-title{
+    color: hsl(14, 65%, 9%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* side-bar */
+
+.maincontianer--right {
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 10px;
+    height: max-content;
+    padding: 10px;
+}
+
+.maincontianer--right-sidebar-text{
+    color: var(--red-color-);
+    font-size: 30px;
+    font-weight: 600;
+}
+.maincontianer--right-sidebar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* start Mobile: 375px */
+
+@media (max-width: 375px) {
+    .maincontianermains {
+        width: 300px;
+    }
+}
+@media (max-width: 375px) {
+    .maincontianermainsres {
+       align-items: center;
+       display: flex;
+    }
+}
+
+@media (max-width: 375px) {
+    .a{
+        align-items: center;
+    }
+}
+@media (max-width: 375px) {
+    .maincontianer {
+        display: flex;
+        flex-direction: column; 
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+/* end Mobile: 375px */
+.numberproduct{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.maincontianer--right-sidebar-{
+    line-height: 0.8;
+}
+.mainorder-1{
+    display: none;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.totalprice{
+    font-weight: 600;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 243, 235);
+    width: 280px;
+    height: 20px;
+    padding:30px;
+    border-radius: 20px;
+}
+.delivery-text{
+    font-size: 15px;
+}
+.Confng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.Confng-btn{
+    background-color: var(--red-color-);
+    border: none;
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 400ms ease;
+}
+.Confng-btn:hover{
+    background-color: hsl(14, 94%, 31%);
+}
+.mainorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style js  */
+.boxsidebar{
+    display: flex;
+}
+.maincontianer-side-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.newdiv5{
+    display: flex;
+}
+.titleproduct{
+    color: hsl(14, 65%, 9%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.priceproduct{
+    color: var(--red-color-);
+    font-size: 19px;
+}
+.i-icon{
+    color: black;
+    font-size: 16px;
+    background-color: rgb(238, 238, 238);
+    padding: 8px;
+    border-radius: 15px;
+    font-weight: 800;
+    transition: all 400ms ease;
+}
+.i-icon:hover{
+    color: red;
+    background-color: rgb(239, 239, 239);
+    cursor: pointer;
+}
+/* style js  */
